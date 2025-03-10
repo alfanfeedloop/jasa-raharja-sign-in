@@ -10,7 +10,10 @@ export default function Home() {
 
   const handleSubmit = (e: FormEvent) => {
     e.preventDefault();
-    if (username === "user" && password === "user") {
+    if (
+      username === "asaraharja@feedlooptest.my.id" &&
+      password === "Demo001!"
+    ) {
       setError("");
       window.location.href = "https://jasaraharja-ai.webapp.feedloop.ai/";
     } else {
