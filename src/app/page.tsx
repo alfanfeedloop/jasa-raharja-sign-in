@@ -12,7 +12,7 @@ export default function Home() {
     e.preventDefault();
     if (username === "user" && password === "user") {
       setError("");
-      window.location.href = "https://jasaraharja.aiagent-webapp.feedloop.ai";
+      window.location.href = "https://jasaraharja-ai.webapp.feedloop.ai/";
     } else {
       setError("Invalid username or password");
     }
